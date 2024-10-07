@@ -1,0 +1,6 @@
+.blog-image-list {
+    width: 100%;
+    max-width: 500px; /* 원하는 최대 너비 설정 */
+    height: auto; /* 비율에 맞게 높이를 자동 조절 */
+    object-fit: cover;
+}
