@@ -1,12 +1,12 @@
-__pycache__/
-blog/__pycache__/
-blog/migrations/
-mystie/__pycache__/
+PhotoBlogServer/__pycache__/
+PhotoBlogServer/blog/__pycache__/
+PhotoBlogServer/blog/migrations/
+PhotoBlogServer/mystie/__pycache__/
 
-venv/
+PhotoBlogServer/venv/
 
-db.sqlite3
-/static/
-.DS_Store
-*.cpython-*
-Thumbs.db
+PhotoBlogServer/db.sqlite3
+PhotoBlogServer/static/
+PhotoBlogServer/.DS_Store
+PhotoBlogServer/*.cpython-*
+PhotoBlogServer/Thumbs.db
