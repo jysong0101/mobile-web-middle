@@ -7,13 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!-- 상단 버튼 레이아웃 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="53dp"
         android:orientation="horizontal">
 
-        <!-- 동기화 버튼 -->
         <Button
             android:id="@+id/btn_load"
             android:layout_width="198dp"
@@ -21,23 +19,20 @@
             android:onClick="onClickDownload"
             android:text="동기화" />
 
-        <!-- 새로운 이미지 게시 버튼 -->
         <Button
             android:id="@+id/btn_save"
             android:layout_width="215dp"
             android:layout_height="50dp"
-            android:onClick="onClickUpload"
+            android:onClick="onClickNewPost"
             android:text="새로운 이미지 게시" />
     </LinearLayout>
 
-    <!-- 텍스트 뷰 -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="..." />
 
-    <!-- 리사이클러 뷰 -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
